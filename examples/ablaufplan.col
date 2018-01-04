@@ -1,0 +1,94 @@
+object AblaufPlanItems: TAblaufPlanItems
+  items = <
+    item
+      Caption = 'Vorspann 31.12.2017'
+      Color = clBlack
+      FileName = '..\..\Vorspann\Vorspann 31.12.2017.ppt'
+    end
+    item
+      Caption = 'Video "Sylvester"'
+      Color = 16711808
+    end
+    item
+      Caption = 'Begr'#252#223'ung und Gebet (Juan)'
+      Color = 33023
+    end
+    item
+      Caption = '31.12.2017  J.Paulus Silvester mp4'
+      Color = clRed
+      FileName = '..\..\Gottesdienstleiter\31.12.2017  J.Paulus Silvester mp4.mp4'
+    end
+    item
+      Caption = '31.12.2017 J.Paulus Folien'
+      Color = clBlack
+      FileName = '..\..\Gottesdienstleiter\31.12.2017 J.Paulus Folien.ppt'
+    end
+    item
+      Caption = 'Herr, ich komme zu dir'
+      Color = clBlue
+      FileName = 'Herr, ich komme zu dir.sng'
+    end
+    item
+      Caption = 'Wo ich auch stehe'
+      Color = clBlue
+      FileName = 'Wo ich auch stehe.sng'
+    end
+    item
+      Caption = 'Video "Dankbarkeit"'
+      Color = 16711808
+    end
+    item
+      Caption = '31.12.2017 J.Paulus Dankbarkeit mp4'
+      Color = clRed
+      FileName = '..\..\Gottesdienstleiter\31.12.2017 J.Paulus Dankbarkeit mp4.mp4'
+    end
+    item
+      Caption = 'Wunderbarer Gott'
+      Color = clBlue
+      FileName = 'Wunderbarer Gott.sng'
+    end
+    item
+      Caption = 'Predigt (Hans Hornisch)'
+      Color = clRed
+    end
+    item
+      Caption = '2017-12-31 40. Dienstjubil'#228'um Gerd Ballon'
+      Color = clBlack
+      FileName = 
+        '..\..\Gottesdienstleiter\2017-12-31 40. Dienstjubil'#228'um Gerd Ball' +
+        'on.ppt'
+    end
+    item
+      Caption = 'Dankbarkeit'
+      Color = clBlue
+      FileName = 'Dankbarkeit.sng'
+    end
+    item
+      Caption = 'Gerd Jubil'#228'um 40 Jahre Dienst 12-2017'
+      Color = clBlack
+      FileName = 
+        '..\..\Gottesdienstleiter\Gerd Jubil'#228'um 40 Jahre Dienst 12-2017.p' +
+        'pt'
+    end
+    item
+      Caption = 'R'#252'ckblicke (2 Gemeindeleiter, Handmikros)'
+      Color = 33023
+    end
+    item
+      Caption = 'Dankgebet (Flo)'
+      Color = 33023
+    end
+    item
+      Caption = 'Informationen (Juan)'
+      Color = 33023
+    end
+    item
+      Caption = 'Von deinem Thron'
+      Color = clBlue
+      FileName = 'Von deinem Thron.sng'
+    end
+    item
+      Caption = 'Abschluss / Segen (Juan)'
+      Color = 33023
+    end>
+end

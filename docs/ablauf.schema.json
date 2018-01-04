@@ -1,0 +1,68 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$id": "http://lib-songbeamer.com/ablauf.json",
+  "type": "object",
+  "properties": {
+    "title": {
+      "$id": "/properties/title",
+      "type": "string",
+      "title": "The Title Schema",
+      "description": "The Title of the Ablaufplan",
+      "default": "",
+      "examples": [
+        "examples/ablaufplan.col"
+      ]
+    },
+    "items": {
+      "$id": "/properties/items",
+      "type": "array",
+      "items": {
+        "$id": "/properties/items/items",
+        "type": "object",
+        "properties": {
+          "filename": {
+            "$id": "/properties/items/items/properties/filename",
+            "type": "string",
+            "title": "The Filename Schema",
+            "description": "Filename of an Item. May be Empty if no File",
+            "default": "",
+            "examples": [
+              "..\\..\\Vorspann\\Vorspann 31.12.2017.ppt"
+            ]
+          },
+          "caption": {
+            "$id": "/properties/items/items/properties/caption",
+            "type": "string",
+            "title": "The Caption Schema",
+            "description": "The Caption, as seen in the Songbeamer",
+            "default": "",
+            "examples": [
+              "Vorspann 31.12.2017"
+            ]
+          },
+          "color": {
+            "$id": "/properties/items/items/properties/color",
+            "type": "string",
+            "title": "The Color Schema",
+            "description": "The Color of the Item",
+            "default": "",
+            "examples": [
+              "#000000"
+            ]
+          },
+          "type": {
+            "$id": "/properties/items/items/properties/type",
+            "type": "string",
+            "title": "The Type Schema",
+            "description": "The guessed Type.",
+            "default": "",
+            "examples": [
+              "powerpoint"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

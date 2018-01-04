@@ -1,0 +1,24 @@
+@startuml
+class index {
+  + {method} void song2JSON(data: string, callback: function)
+  + {method} void ablauf2JSON(data: string, callback: function)
+  + {method} void json2Song(object: object, file: string, callback: function)
+  + {method} void json2Ablauf(object: object, file: string, callback: function)
+}
+class song {
+  + {method} void toJSON(data: string, callback: function)
+  + {method} void toFile(json: object, callback: function)
+  - {method} string isCaption(text: string)
+}
+class ablauf {
+  + {method} void toJSON(data: string, callback: function)
+  + {method} void toFile(json: object, callback: function)
+  - {method} string clean(text: string)
+  - {method} string color2Hex(color: string)
+  - {method} string hex2Color(hex: string)
+  - {method} string getType(caption: string, filename: string)
+  - {method} string colourNameToHex(colour: string)
+}
+song *-- index
+ablauf *-- index
+@enduml

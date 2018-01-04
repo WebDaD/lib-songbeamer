@@ -1,0 +1,19 @@
+{
+  "name": "lib-songbeamer",
+  "version": "0.0.1",
+  "description": "transforming SongBeamer Song-Files and Ablaufplan-Files",
+  "license": "The Unlicense",
+  "repository": "WebDaD/lib-songbeamer",
+  "author": {
+    "email": "dominik.sigmund@webdad.eu",
+    "name": "Dominik Sigmund",
+    "url": "https://github.com/WebDaD"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "songbeamer",
+    "json"
+  ]
+}

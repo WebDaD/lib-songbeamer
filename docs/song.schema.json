@@ -1,0 +1,162 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "$id": "http://lib-songbeamer.com/song.json",
+  "type": "object",
+  "properties": {
+    "slides": {
+      "$id": "/properties/slides",
+      "type": "array",
+      "items": {
+        "$id": "/properties/slides/items",
+        "type": "object",
+        "properties": {
+          "lines": {
+            "$id": "/properties/slides/items/properties/lines",
+            "type": "array",
+            "items": {
+              "$id": "/properties/slides/items/properties/lines/items",
+              "type": "string",
+              "title": "The 0 Schema",
+              "description": "A Line of Song-Text",
+              "default": "",
+              "examples": [
+                "Our Father everlasting,"
+              ]
+            }
+          },
+          "caption": {
+            "$id": "/properties/slides/items/properties/caption",
+            "type": "string",
+            "title": "The Caption Schema",
+            "description": "The Caption of a Slide.",
+            "default": "",
+            "examples": [
+              "Verse 1"
+            ]
+          }
+        }
+      }
+    },
+    "LangCount": {
+      "$id": "/properties/LangCount",
+      "type": "string",
+      "title": "The Langcount Schema",
+      "description": "How many Languages are there",
+      "default": "",
+      "examples": [
+        "2"
+      ]
+    },
+    "Title": {
+      "$id": "/properties/Title",
+      "type": "string",
+      "title": "The Title Schema",
+      "description": "Original Title of the Song",
+      "default": "",
+      "examples": [
+        "This I Believe (The Creed)"
+      ]
+    },
+    "Editor": {
+      "$id": "/properties/Editor",
+      "type": "string",
+      "title": "The Editor Schema",
+      "description": "How was this created.",
+      "default": "",
+      "examples": [
+        "SongBeamer 4.14a"
+      ]
+    },
+    "Version": {
+      "$id": "/properties/Version",
+      "type": "string",
+      "title": "The Version Schema",
+      "description": "Version of this Song.",
+      "default": "",
+      "examples": [
+        "3"
+      ]
+    },
+    "TitleFormat": {
+      "$id": "/properties/TitleFormat",
+      "type": "string",
+      "title": "The Titleformat Schema",
+      "description": "How the Title is formatted",
+      "default": "",
+      "examples": [
+        "U"
+      ]
+    },
+    "BackgroundImage": {
+      "$id": "/properties/BackgroundImage",
+      "type": "string",
+      "title": "The Backgroundimage Schema",
+      "description": "Path to the bg-image",
+      "default": "",
+      "examples": [
+        "bgvideos://Blanko f�r Songbeamer-1.jpg"
+      ]
+    },
+    "(c)": {
+      "$id": "/properties/(c)",
+      "type": "string",
+      "title": "The (c) Schema",
+      "description": "Copyrights",
+      "default": "",
+      "examples": [
+        "Hillsong Worship"
+      ]
+    },
+    "Translation": {
+      "$id": "/properties/Translation",
+      "type": "string",
+      "title": "The Translation Schema",
+      "description": "Name of the translators",
+      "default": "",
+      "examples": [
+        "Martin Bruch & Dennis Strehl"
+      ]
+    },
+    "Author": {
+      "$id": "/properties/Author",
+      "type": "string",
+      "title": "The Author Schema",
+      "description": "Name of the Text-Author.",
+      "default": "",
+      "examples": [
+        "Ben Fielding & Matthew Crocker"
+      ]
+    },
+    "Melody": {
+      "$id": "/properties/Melody",
+      "type": "string",
+      "title": "The Melody Schema",
+      "description": "Name of the Melody-Author.",
+      "default": "",
+      "examples": [
+        "Ben Fielding & Matthew Crocker"
+      ]
+    },
+    "TitleLang2": {
+      "$id": "/properties/TitleLang2",
+      "type": "string",
+      "title": "The Titlelang2 Schema",
+      "description": "Second Title in different Language",
+      "default": "",
+      "examples": [
+        "Das glaube ich"
+      ]
+    },
+    "VerseOrder": {
+      "$id": "/properties/VerseOrder",
+      "type": "string",
+      "title": "The Verseorder Schema",
+      "description": "Order of Slides, by captions",
+      "default": "",
+      "examples": [
+        "Verse 1,Chorus,Verse 2,Chorus,Bridge,Chorus"
+      ]
+    }
+  }
+}
