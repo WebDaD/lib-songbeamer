@@ -2,7 +2,7 @@ object AblaufPlanItems: TAblaufPlanItems
   items = <
     item
       Caption = 'Vorspann 31.12.2017'
-      Color = clBlack
+      Color = 0
       FileName = '..\..\Vorspann\Vorspann 31.12.2017.ppt'
     end
     item
@@ -10,27 +10,27 @@ object AblaufPlanItems: TAblaufPlanItems
       Color = 16711808
     end
     item
-      Caption = 'Begr'#252#223'ung und Gebet (Juan)'
+      Caption = 'Begr#252#223ung und Gebet (Juan)'
       Color = 33023
     end
     item
       Caption = '31.12.2017  J.Paulus Silvester mp4'
-      Color = clRed
+      Color = 255
       FileName = '..\..\Gottesdienstleiter\31.12.2017  J.Paulus Silvester mp4.mp4'
     end
     item
       Caption = '31.12.2017 J.Paulus Folien'
-      Color = clBlack
+      Color = 0
       FileName = '..\..\Gottesdienstleiter\31.12.2017 J.Paulus Folien.ppt'
     end
     item
       Caption = 'Herr, ich komme zu dir'
-      Color = clBlue
+      Color = 16711680
       FileName = 'Herr, ich komme zu dir.sng'
     end
     item
       Caption = 'Wo ich auch stehe'
-      Color = clBlue
+      Color = 16711680
       FileName = 'Wo ich auch stehe.sng'
     end
     item
@@ -39,39 +39,35 @@ object AblaufPlanItems: TAblaufPlanItems
     end
     item
       Caption = '31.12.2017 J.Paulus Dankbarkeit mp4'
-      Color = clRed
+      Color = 255
       FileName = '..\..\Gottesdienstleiter\31.12.2017 J.Paulus Dankbarkeit mp4.mp4'
     end
     item
       Caption = 'Wunderbarer Gott'
-      Color = clBlue
+      Color = 16711680
       FileName = 'Wunderbarer Gott.sng'
     end
     item
       Caption = 'Predigt (Hans Hornisch)'
-      Color = clRed
+      Color = 255
     end
     item
-      Caption = '2017-12-31 40. Dienstjubil'#228'um Gerd Ballon'
-      Color = clBlack
-      FileName = 
-        '..\..\Gottesdienstleiter\2017-12-31 40. Dienstjubil'#228'um Gerd Ball' +
-        'on.ppt'
+      Caption = '2017-12-31 40. Dienstjubil#228um Gerd Ballon'
+      Color = 0
+      FileName = '..\..\Gottesdienstleiter\2017-12-31 40. Dienstjubil#228um Gerd Ballon.ppt'
     end
     item
       Caption = 'Dankbarkeit'
-      Color = clBlue
+      Color = 16711680
       FileName = 'Dankbarkeit.sng'
     end
     item
-      Caption = 'Gerd Jubil'#228'um 40 Jahre Dienst 12-2017'
-      Color = clBlack
-      FileName = 
-        '..\..\Gottesdienstleiter\Gerd Jubil'#228'um 40 Jahre Dienst 12-2017.p' +
-        'pt'
+      Caption = 'Gerd Jubil#228um 40 Jahre Dienst 12-2017'
+      Color = 0
+      FileName = '..\..\Gottesdienstleiter\Gerd Jubil#228um 40 Jahre Dienst 12-2017.ppt'
     end
     item
-      Caption = 'R'#252'ckblicke (2 Gemeindeleiter, Handmikros)'
+      Caption = 'R#252ckblicke (2 Gemeindeleiter, Handmikros)'
       Color = 33023
     end
     item
@@ -84,7 +80,7 @@ object AblaufPlanItems: TAblaufPlanItems
     end
     item
       Caption = 'Von deinem Thron'
-      Color = clBlue
+      Color = 16711680
       FileName = 'Von deinem Thron.sng'
     end
     item

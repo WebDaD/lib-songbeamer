@@ -48,19 +48,19 @@ exports.toJSON = function (data, callback) {
  * @returns Nothing
  * */
 exports.toFile = function (items, callback) {
-  var file = 'object AblaufPlanItems: TAblaufPlanItems \r  items = < \r'
+  var file = 'object AblaufPlanItems: TAblaufPlanItems\r\n  items = <\r\n'
   for (let index = 0; index < items.length; index++) {
     const item = items[index]
-    file += '    item\r'
-    file += '      Caption = \'' + item.caption + '\'\r'
-    file += '      Color = ' + hex2Color(item.color) + '\r'
+    file += '    item\r\n'
+    file += '      Caption = \'' + item.caption + '\'\r\n'
+    file += '      Color = ' + hex2Color(item.color) + '\r\n'
     if (item.filename !== '') {
-      file += '      FileName = \'' + item.filename + '\'\r'
+      file += '      FileName = \'' + item.filename + '\'\r\n'
     }
     if (index === items.length - 1) { // last item
-      file += '    end>\r'
+      file += '    end>\r\n'
     } else {
-      file += '    end\r'
+      file += '    end\r\n'
     }
   }
   file += 'end'
@@ -136,7 +136,6 @@ function hex2Color (hex) {
  * */
 function getType (caption, filename) {
   if (typeof filename !== 'undefined') {
-    console.log(filename)
     var p = filename.split('.')
     var suffix = p[p.length - 1].trim()
     switch (suffix) {

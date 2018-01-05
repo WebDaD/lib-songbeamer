@@ -53,20 +53,21 @@ exports.toFile = function (json, callback) {
   var file = ''
   for (var property in json) {
     if (property !== 'slides' && json.hasOwnProperty(property)) {
-      file += '#' + property + '=' + json[property] + '\r'
+      file += '#' + property + '=' + json[property] + '\r\n'
     }
   }
   for (let index = 0; index < json.slides.length; index++) {
-    file += '---\r'
+    file += '---\r\n'
     const slide = json.slides[index]
     if (typeof slide.caption !== 'undefined') {
-      file += slide.caption + '\r'
+      file += slide.caption + '\r\n'
     }
     for (let lineindex = 0; lineindex < slide.lines.length; lineindex++) {
       const line = slide.lines[lineindex]
-      file += line + '\r'
+      file += line + '\r\n'
     }
   }
+  file = file.replace(/\r\n$/, '') // remove last newline
   callback(null, file)
 }
 /** Checks if a string is a caption (Vers, Bridge, Chorus, ...)

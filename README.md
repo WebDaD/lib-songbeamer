@@ -2,6 +2,20 @@
 
 A Module for transforming [SongBeamer](https://www.songbeamer.de/) Song-Files and Ablaufplan-Files into JSON and Back
 
+## PSA
+
+This Module was written for a specific purpose:
+
+- Load all Ablaufplan-Files in a Folder into JSON, in order to perform some stuff with the json.
+
+All other Things (write back to file, songs) were put in for "completion"-reasons.
+
+Still expect much stuff to be missing.
+
+But i am looking forward to improve this, so write them issues, or even butter:
+
+**Make some Pull-Requests :-)**
+
 ## Installation
 
 ... is as simple as `npm install lib-songbeamer`
@@ -324,7 +338,7 @@ My Commandline is as follows:
 
 #### Results
 
-Coverage: docs/coverage/index.html
+Coverage: docs/coverage/lcov-report/index.html
 Mochawesome-Report: docs/mochawesome-report/index.html
 
 ### JSON
